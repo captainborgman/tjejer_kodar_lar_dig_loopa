@@ -1,0 +1,56 @@
+body {
+  background: wheat;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header styling */
+header {
+  background: goldenrod;
+  padding: 50px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Styling för att korten ska lägga sig på flera
+rader om det blir trångt */
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Styling för korten */
+.plant-card {
+  background: white;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.plant-title {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.grey-text {
+  color: grey;
+  font-size: 12px;
+}
+
+.plant-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px 0;
+}
+
+.info-text {
+  margin: 0;
+}
