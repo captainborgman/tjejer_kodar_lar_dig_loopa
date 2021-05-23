@@ -1,18 +1,22 @@
 body {
-  background: wheat;
+  background: #e2efe3;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Courier New', sans-serif;
 }
 
 /* Header styling */
 header {
-  background: goldenrod;
+  background: #a3c5a5;
   padding: 50px;
   text-align: center;
 }
 
 header h1 {
   margin: 0;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 13px;
 }
 
 /* Styling för att korten ska lägga sig på flera
@@ -20,6 +24,7 @@ rader om det blir trångt */
 main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Styling för korten */
